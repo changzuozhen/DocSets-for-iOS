@@ -41,6 +41,7 @@
 
 + (id)sharedDownloadManager;
 - (void)reloadAvailableDocSets;
+- (void)reloadDownloadedDocSets;
 - (void)updateAvailableDocSetsFromWeb;
 - (void)downloadDocSetAtURL:(NSString *)URL;
 - (void)deleteDocSet:(DocSet *)docSetToDelete;
